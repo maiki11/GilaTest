@@ -1,0 +1,11 @@
+.logoutBtn {
+    padding: 10px;
+    background: #cb2c50;
+    color: #fff;
+    border: 1px solid #6c091f;
+    border-radius: 7px;
+}
+
+.navbar {
+    padding: 30px;
+}

@@ -1,0 +1,19 @@
+.showMore span {
+    margin-right: 0px !important;
+}
+
+.form li {
+    display: inline !important;
+}
+
+.MuiDialog-paperScrollPaper {
+    width: 100% !important;
+}
+
+.textForm {
+    width: 38%;
+}
+
+.textForm .MuiInputBase-root {
+    width: 100%;
+}

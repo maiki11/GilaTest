@@ -1,0 +1,265 @@
+{
+	"id": "e350673f-b474-be8c-9acd-37979ac1c014",
+	"name": "gila",
+	"description": "",
+	"order": [
+		"25fdab16-eb11-5b05-ccd6-a4b8b2a42d0c",
+		"9689bbe0-ed53-7297-5a5c-3f1cf3786a1c",
+		"e982cc2d-a31f-176f-5cf0-aa117b32619d",
+		"024964fa-a3a1-98c9-5cbe-e8b3010bb8d5",
+		"a225901e-d497-ada9-9be5-9741dc77c69e",
+		"6e5d076f-f121-4ee2-471a-39f4f2027712",
+		"c89328e5-a31c-841d-2a4d-c2093839999c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1641579908725,
+	"owner": "920075",
+	"public": false,
+	"requests": [
+		{
+			"id": "024964fa-a3a1-98c9-5cbe-e8b3010bb8d5",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/typeVehicles",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641629774116,
+			"name": "http://localhost:8000/api/typeVehicles/get",
+			"description": "\t",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "25fdab16-eb11-5b05-ccd6-a4b8b2a42d0c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/register",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8000/api/register",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1641580355000,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\": \"Miguel\",\n\t\"email\": \"miguel@correo.com\",\n\t\"password\": \"password\"\n}"
+		},
+		{
+			"id": "6e5d076f-f121-4ee2-471a-39f4f2027712",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicles/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8000/api/vehicles",
+			"description": "\t",
+			"descriptionFormat": "html",
+			"time": 1641629919655,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"year\": 2022,\n    \"brand\": \"Yamaha\",\n    \"model\": \"Vento thriller\",\n    \"color\": \"Gray\",\n    \"plate\": \"wel3640\",\n    \"tyres\": 2,\n    \"engine_power\": 1010,\n    \"type_vehicle_id\": 2\n}"
+		},
+		{
+			"id": "9689bbe0-ed53-7297-5a5c-3f1cf3786a1c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8000/api/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1641580419059,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\": \"miguel@correo.com\",\n\t\"password\": \"password\"\n}"
+		},
+		{
+			"id": "a225901e-d497-ada9-9be5-9741dc77c69e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicles/store",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641629888408,
+			"name": "http://localhost:8000/api/vehicle/store",
+			"description": "\t",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"responses": [],
+			"rawModeData": "{\n\t\"year\": 2022,\n    \"brand\": \"Yamaha\",\n    \"model\": \"Vento thriller\",\n    \"color\": \"Gray\",\n    \"plate\": \"wel3640\",\n    \"tyres\": 2,\n    \"engine_power\": 1010,\n    \"type_vehicle_id\": 2\n}"
+		},
+		{
+			"id": "c89328e5-a31c-841d-2a4d-c2093839999c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/vehicles/show/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8000/api/vehicles/show/1",
+			"description": "\t",
+			"descriptionFormat": "html",
+			"time": 1641629989476,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"year\": 2022,\n    \"brand\": \"Yamaha\",\n    \"model\": \"Vento thriller\",\n    \"color\": \"Gray\",\n    \"plate\": \"wel3640\",\n    \"tyres\": 2,\n    \"engine_power\": 1010,\n    \"type_vehicle_id\": 2\n}"
+		},
+		{
+			"id": "e982cc2d-a31f-176f-5cf0-aa117b32619d",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer 2|YJODYCdvjT8EB7rA3Rcn5bacAdTSgfG0wDdTRoSd",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8000/api/typeVehicles/store",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641629784538,
+			"name": "http://localhost:8000/api/typeVehicles/store",
+			"description": "\t",
+			"collectionId": "e350673f-b474-be8c-9acd-37979ac1c014",
+			"responses": [],
+			"rawModeData": "{\n\t\"type\": \"Sedan\"\n}"
+		}
+	]
+}
